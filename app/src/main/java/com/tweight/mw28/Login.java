@@ -22,6 +22,7 @@ public class Login extends AppCompatActivity {
     List<ChuCuaHang> list = new ArrayList<>();
     ChuCuaHangDAO chuDao;
 // code dao
+    // tao code dao
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
