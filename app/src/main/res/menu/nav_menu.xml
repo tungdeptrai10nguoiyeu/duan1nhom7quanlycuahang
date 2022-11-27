@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Cửa hàng">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_sanpham"
+                android:icon="@drawable/crown_24"
+                android:title="Sản phẩm"/>
+            <item
+                android:id="@+id/nav_loaihang"
+                android:icon="@drawable/boxes_24"
+                android:title="Loại sản phẩm"/>
+            <item
+                android:id="@+id/nav_nhanvien"
+                android:icon="@drawable/users_24"
+                android:title="Nhân viên" />
+
+            <item
+                android:id="@+id/nav_hoadon"
+                android:icon="@drawable/past_24"
+                android:title="Lịch sử bán hàng" />
+
+        </menu>
+
+    </item>
+
+    <item android:title="Thống kê">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_banchay"
+                android:icon="@drawable/trophy_24"
+                android:title="Sản phẩm bán chạy" />
+
+            <item
+                android:id="@+id/nav_doanhthu"
+                android:icon="@drawable/dollar_24"
+                android:title="Doanh thu" />
+
+        </menu>
+
+    </item>
+
+    <item android:title="Tài khoản">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_suathongtin"
+                android:icon="@drawable/edit_24"
+                android:title="Chỉnh sửa" />
+
+            <item
+                android:id="@+id/nav_dangxuat"
+                android:icon="@drawable/alt_24"
+                android:title="Đăng xuất" />
+
+        </menu>
+
+    </item>
+
+</menu>
