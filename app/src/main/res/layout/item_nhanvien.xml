@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    app:cardBackgroundColor="#D8BFD8"
+    >
+
+    <LinearLayout
+        android:id="@+id/carcv"
+        android:layout_width="match_parent"
+        android:layout_height="202dp"
+        android:background="@drawable/custom_item_nhanvien"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@null">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="145dp"
+            android:layout_height="198dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0"
+            android:src="@drawable/ic_icon_nhanvien" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout"
+            android:layout_width="267dp"
+            android:layout_height="202dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:id="@+id/item_id_nv"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/item_hoten_nv"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/item_gioitinh_nv"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/item_level_nv"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/item_ngaylam_nv"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

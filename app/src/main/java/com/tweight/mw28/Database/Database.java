@@ -15,7 +15,7 @@ public class Database extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         String dbOwner = "CREATE TABLE OWNER(id INTEGER PRIMARY KEY AUTOINCREMENT, hoten TEXT, dienthoai INTEGER, username text, password text, level TEXT)";
         db.execSQL(dbOwner);
-        String dbStaff = "CREATE TABLE NHANVIEN(id INTEGER PRIMARY KEY AUTOINCREMENT, username TEXT, password TEXT, hoten TEXT, gioitinh TEXT, diachi TEXT, dienthoai INTEGER, ngaylam TEXT, level)";
+        String dbStaff = "CREATE TABLE NHANVIEN(id INTEGER PRIMARY KEY AUTOINCREMENT, username TEXT, password TEXT, hoten TEXT, gioitinh TEXT, diachi TEXT, dienthoai INTEGER, ngaylam TEXT, level text)";
         db.execSQL(dbStaff);
         String dbType = "CREATE TABLE LOAIHANG(id INTEGER PRIMARY KEY AUTOINCREMENT, tenloai TEXT)";
         db.execSQL(dbType);

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_dialog_themnv">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/edt_tnv_id"
+            android:layout_width="317dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_edt_themnv"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="ID:"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/edt_tnv_hoten"
+            android:layout_width="317dp"
+            android:layout_height="48dp"
+            android:background="@drawable/custom_edt_themnv"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:hint="HO ten:"
+            android:textColorHighlight="#B14848" />
+
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/edt_tnv_username"
+            android:layout_width="317dp"
+            android:layout_height="48dp"
+            android:background="@drawable/custom_edt_themnv"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:hint="Username" />
+
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/edt_tnv_password"
+            android:layout_width="317dp"
+            android:layout_height="48dp"
+            android:background="@drawable/custom_edt_themnv"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:hint="Password:" />
+
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/edt_tnv_gioitinh"
+            android:layout_width="317dp"
+            android:layout_height="48dp"
+            android:background="@drawable/custom_edt_themnv"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:hint="Gioi tinh:" />
+
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/edt_tnv_diachi"
+            android:layout_width="317dp"
+            android:layout_height="48dp"
+            android:background="@drawable/custom_edt_themnv"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:hint="Dia chi:" />
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/edt_tnv_dienthoai"
+            android:layout_width="317dp"
+            android:layout_height="48dp"
+            android:background="@drawable/custom_edt_themnv"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:hint="Dien thoai:" />
+
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/edt_tnv_ngaylam"
+            android:layout_width="317dp"
+            android:layout_height="48dp"
+            android:background="@drawable/custom_edt_themnv"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:hint="Ngay lam:" />
+
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/edt_tnv_level"
+            android:layout_width="317dp"
+            android:layout_height="48dp"
+            android:background="@drawable/custom_edt_themnv"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:hint="level:" />
+
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btn_tnv_them"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_btn_themnv"
+            android:text="Thêm" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

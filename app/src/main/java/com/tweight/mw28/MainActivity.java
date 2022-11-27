@@ -11,10 +11,10 @@ import androidx.fragment.app.FragmentManager;
 
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.widget.FrameLayout;
 
 import com.google.android.material.navigation.NavigationView;
 import com.tweight.mw28.ui.loaihang.LoaiHangFragment;
+import com.tweight.mw28.ui.nhanvien.NhanvienFragment;
 import com.tweight.mw28.ui.sanpham.SanPhamFragment;
 
 public class MainActivity extends AppCompatActivity {
@@ -45,6 +45,10 @@ public class MainActivity extends AppCompatActivity {
 
                     case R.id.nav_loaihang:
                         fragment = new LoaiHangFragment();
+                        break;
+
+                    case R.id.nav_nhanvien:
+                        fragment = new NhanvienFragment();
                         break;
                 }
 
